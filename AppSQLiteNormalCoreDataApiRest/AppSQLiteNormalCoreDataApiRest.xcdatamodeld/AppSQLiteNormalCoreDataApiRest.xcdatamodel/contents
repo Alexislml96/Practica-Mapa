@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Persona" representedClassName="Persona" syncable="YES">
+        <attribute name="domicilio" optional="YES" attributeType="String"/>
+        <attribute name="edad" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="estadoCivil" optional="YES" attributeType="String"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Persona" positionX="-9771.510986328125" positionY="-13587.60974121094" width="128" height="103"/>
+    </elements>
+</model>

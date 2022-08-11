@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0129F1E9289DDF06007438A4 /* AgregarCategoriasController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0129F1E8289DDF06007438A4 /* AgregarCategoriasController.m */; };
+		013676BF28823519006EF263 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013676BE28823519006EF263 /* MapKit.framework */; platformFilter = maccatalyst; };
+		013676C228823567006EF263 /* OpenWeatherMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013676C128823567006EF263 /* OpenWeatherMapController.m */; };
+		013676C7288237C8006EF263 /* Persona+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 013676C5288237C8006EF263 /* Persona+CoreDataProperties.m */; };
+		013676C8288237C8006EF263 /* Persona+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 013676C6288237C8006EF263 /* Persona+CoreDataClass.m */; };
+		017F4A332894A78E0009C872 /* ContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017F4A322894A78E0009C872 /* ContactsController.m */; };
+		017F4A372894A88D0009C872 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 017F4A362894A88D0009C872 /* Category.m */; };
+		0190183828824B2000EA3D8F /* Lugares.m in Sources */ = {isa = PBXBuildFile; fileRef = 0190183728824B2000EA3D8F /* Lugares.m */; };
+		7720127F2878F242009A9969 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7720127E2878F242009A9969 /* AppDelegate.m */; };
+		772012822878F242009A9969 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 772012812878F242009A9969 /* ViewController.m */; };
+		772012852878F242009A9969 /* AppSQLiteNormalCoreDataApiRest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 772012832878F242009A9969 /* AppSQLiteNormalCoreDataApiRest.xcdatamodeld */; };
+		772012872878F243009A9969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772012862878F243009A9969 /* Assets.xcassets */; };
+		7720128A2878F243009A9969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772012882878F243009A9969 /* Main.storyboard */; };
+		7720128C2878F243009A9969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7720128B2878F243009A9969 /* main.m */; };
+		D28300D2C1F00913D975B11D /* Pods_AppSQLiteNormalCoreDataApiRest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7FED746B4C5323EB0477A8 /* Pods_AppSQLiteNormalCoreDataApiRest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0129F1E7289DDF06007438A4 /* AgregarCategoriasController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgregarCategoriasController.h; sourceTree = "<group>"; };
+		0129F1E8289DDF06007438A4 /* AgregarCategoriasController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgregarCategoriasController.m; sourceTree = "<group>"; };
+		013676BE28823519006EF263 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		013676C028823567006EF263 /* OpenWeatherMapController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenWeatherMapController.h; sourceTree = "<group>"; };
+		013676C128823567006EF263 /* OpenWeatherMapController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenWeatherMapController.m; sourceTree = "<group>"; };
+		013676C3288237C7006EF263 /* Persona+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Persona+CoreDataClass.h"; sourceTree = "<group>"; };
+		013676C4288237C8006EF263 /* Persona+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Persona+CoreDataProperties.h"; sourceTree = "<group>"; };
+		013676C5288237C8006EF263 /* Persona+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Persona+CoreDataProperties.m"; sourceTree = "<group>"; };
+		013676C6288237C8006EF263 /* Persona+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Persona+CoreDataClass.m"; sourceTree = "<group>"; };
+		017F4A312894A78E0009C872 /* ContactsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsController.h; sourceTree = "<group>"; };
+		017F4A322894A78E0009C872 /* ContactsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsController.m; sourceTree = "<group>"; };
+		017F4A352894A88D0009C872 /* Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		017F4A362894A88D0009C872 /* Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		017F4A382894B4E70009C872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0190183628824B2000EA3D8F /* Lugares.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lugares.h; sourceTree = "<group>"; };
+		0190183728824B2000EA3D8F /* Lugares.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lugares.m; sourceTree = "<group>"; };
+		0A7FED746B4C5323EB0477A8 /* Pods_AppSQLiteNormalCoreDataApiRest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppSQLiteNormalCoreDataApiRest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED25CA9905164D89516560C /* Pods-AppSQLiteNormalCoreDataApiRest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppSQLiteNormalCoreDataApiRest.debug.xcconfig"; path = "Target Support Files/Pods-AppSQLiteNormalCoreDataApiRest/Pods-AppSQLiteNormalCoreDataApiRest.debug.xcconfig"; sourceTree = "<group>"; };
+		7720127A2878F242009A9969 /* AppSQLiteNormalCoreDataApiRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppSQLiteNormalCoreDataApiRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7720127D2878F242009A9969 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7720127E2878F242009A9969 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		772012802878F242009A9969 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		772012812878F242009A9969 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		772012842878F242009A9969 /* AppSQLiteNormalCoreDataApiRest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppSQLiteNormalCoreDataApiRest.xcdatamodel; sourceTree = "<group>"; };
+		772012862878F243009A9969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		772012892878F243009A9969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7720128B2878F243009A9969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7720128D2878F243009A9969 /* AppSQLiteNormalCoreDataApiRest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppSQLiteNormalCoreDataApiRest.entitlements; sourceTree = "<group>"; };
+		C065B652B90D0EFD5251AE64 /* Pods-AppSQLiteNormalCoreDataApiRest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppSQLiteNormalCoreDataApiRest.release.xcconfig"; path = "Target Support Files/Pods-AppSQLiteNormalCoreDataApiRest/Pods-AppSQLiteNormalCoreDataApiRest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		772012772878F242009A9969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013676BF28823519006EF263 /* MapKit.framework in Frameworks */,
+				D28300D2C1F00913D975B11D /* Pods_AppSQLiteNormalCoreDataApiRest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01485F0BD3708D5FD040C582 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013676BE28823519006EF263 /* MapKit.framework */,
+				0A7FED746B4C5323EB0477A8 /* Pods_AppSQLiteNormalCoreDataApiRest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		017F4A342894A8750009C872 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				017F4A352894A88D0009C872 /* Category.h */,
+				017F4A362894A88D0009C872 /* Category.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		08BB7635B378C9172D4D4B6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2ED25CA9905164D89516560C /* Pods-AppSQLiteNormalCoreDataApiRest.debug.xcconfig */,
+				C065B652B90D0EFD5251AE64 /* Pods-AppSQLiteNormalCoreDataApiRest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		772012712878F242009A9969 = {
+			isa = PBXGroup;
+			children = (
+				7720127C2878F242009A9969 /* AppSQLiteNormalCoreDataApiRest */,
+				7720127B2878F242009A9969 /* Products */,
+				08BB7635B378C9172D4D4B6A /* Pods */,
+				01485F0BD3708D5FD040C582 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7720127B2878F242009A9969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7720127A2878F242009A9969 /* AppSQLiteNormalCoreDataApiRest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7720127C2878F242009A9969 /* AppSQLiteNormalCoreDataApiRest */ = {
+			isa = PBXGroup;
+			children = (
+				017F4A382894B4E70009C872 /* Info.plist */,
+				017F4A342894A8750009C872 /* Entities */,
+				013676C4288237C8006EF263 /* Persona+CoreDataProperties.h */,
+				013676C3288237C7006EF263 /* Persona+CoreDataClass.h */,
+				013676C6288237C8006EF263 /* Persona+CoreDataClass.m */,
+				013676C5288237C8006EF263 /* Persona+CoreDataProperties.m */,
+				7720127D2878F242009A9969 /* AppDelegate.h */,
+				7720127E2878F242009A9969 /* AppDelegate.m */,
+				772012802878F242009A9969 /* ViewController.h */,
+				772012812878F242009A9969 /* ViewController.m */,
+				013676C028823567006EF263 /* OpenWeatherMapController.h */,
+				013676C128823567006EF263 /* OpenWeatherMapController.m */,
+				772012862878F243009A9969 /* Assets.xcassets */,
+				772012882878F243009A9969 /* Main.storyboard */,
+				7720128B2878F243009A9969 /* main.m */,
+				7720128D2878F243009A9969 /* AppSQLiteNormalCoreDataApiRest.entitlements */,
+				772012832878F242009A9969 /* AppSQLiteNormalCoreDataApiRest.xcdatamodeld */,
+				0190183628824B2000EA3D8F /* Lugares.h */,
+				0190183728824B2000EA3D8F /* Lugares.m */,
+				017F4A312894A78E0009C872 /* ContactsController.h */,
+				017F4A322894A78E0009C872 /* ContactsController.m */,
+				0129F1E7289DDF06007438A4 /* AgregarCategoriasController.h */,
+				0129F1E8289DDF06007438A4 /* AgregarCategoriasController.m */,
+			);
+			path = AppSQLiteNormalCoreDataApiRest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		772012792878F242009A9969 /* AppSQLiteNormalCoreDataApiRest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772012902878F243009A9969 /* Build configuration list for PBXNativeTarget "AppSQLiteNormalCoreDataApiRest" */;
+			buildPhases = (
+				D0F55D125227FF1F0A905D4B /* [CP] Check Pods Manifest.lock */,
+				772012762878F242009A9969 /* Sources */,
+				772012772878F242009A9969 /* Frameworks */,
+				772012782878F242009A9969 /* Resources */,
+				1F7541CF38CB1E9587C07302 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppSQLiteNormalCoreDataApiRest;
+			productName = AppSQLiteNormalCoreDataApiRest;
+			productReference = 7720127A2878F242009A9969 /* AppSQLiteNormalCoreDataApiRest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		772012722878F242009A9969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					772012792878F242009A9969 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 772012752878F242009A9969 /* Build configuration list for PBXProject "AppSQLiteNormalCoreDataApiRest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 772012712878F242009A9969;
+			productRefGroup = 7720127B2878F242009A9969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				772012792878F242009A9969 /* AppSQLiteNormalCoreDataApiRest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		772012782878F242009A9969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772012872878F243009A9969 /* Assets.xcassets in Resources */,
+				7720128A2878F243009A9969 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F7541CF38CB1E9587C07302 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppSQLiteNormalCoreDataApiRest/Pods-AppSQLiteNormalCoreDataApiRest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppSQLiteNormalCoreDataApiRest/Pods-AppSQLiteNormalCoreDataApiRest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppSQLiteNormalCoreDataApiRest/Pods-AppSQLiteNormalCoreDataApiRest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0F55D125227FF1F0A905D4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppSQLiteNormalCoreDataApiRest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		772012762878F242009A9969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772012852878F242009A9969 /* AppSQLiteNormalCoreDataApiRest.xcdatamodeld in Sources */,
+				0129F1E9289DDF06007438A4 /* AgregarCategoriasController.m in Sources */,
+				013676C8288237C8006EF263 /* Persona+CoreDataClass.m in Sources */,
+				017F4A332894A78E0009C872 /* ContactsController.m in Sources */,
+				772012822878F242009A9969 /* ViewController.m in Sources */,
+				013676C7288237C8006EF263 /* Persona+CoreDataProperties.m in Sources */,
+				7720128C2878F243009A9969 /* main.m in Sources */,
+				013676C228823567006EF263 /* OpenWeatherMapController.m in Sources */,
+				017F4A372894A88D0009C872 /* Category.m in Sources */,
+				7720127F2878F242009A9969 /* AppDelegate.m in Sources */,
+				0190183828824B2000EA3D8F /* Lugares.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		772012882878F243009A9969 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				772012892878F243009A9969 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7720128E2878F243009A9969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7720128F2878F243009A9969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		772012912878F243009A9969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED25CA9905164D89516560C /* Pods-AppSQLiteNormalCoreDataApiRest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppSQLiteNormalCoreDataApiRest/AppSQLiteNormalCoreDataApiRest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppSQLiteNormalCoreDataApiRest/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sallebajio.AppSQLiteNormalCoreDataApiRest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		772012922878F243009A9969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C065B652B90D0EFD5251AE64 /* Pods-AppSQLiteNormalCoreDataApiRest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppSQLiteNormalCoreDataApiRest/AppSQLiteNormalCoreDataApiRest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppSQLiteNormalCoreDataApiRest/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sallebajio.AppSQLiteNormalCoreDataApiRest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		772012752878F242009A9969 /* Build configuration list for PBXProject "AppSQLiteNormalCoreDataApiRest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7720128E2878F243009A9969 /* Debug */,
+				7720128F2878F243009A9969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772012902878F243009A9969 /* Build configuration list for PBXNativeTarget "AppSQLiteNormalCoreDataApiRest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772012912878F243009A9969 /* Debug */,
+				772012922878F243009A9969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		772012832878F242009A9969 /* AppSQLiteNormalCoreDataApiRest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				772012842878F242009A9969 /* AppSQLiteNormalCoreDataApiRest.xcdatamodel */,
+			);
+			currentVersion = 772012842878F242009A9969 /* AppSQLiteNormalCoreDataApiRest.xcdatamodel */;
+			path = AppSQLiteNormalCoreDataApiRest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 772012722878F242009A9969 /* Project object */;
+}
